@@ -1,0 +1,37 @@
+nav {
+    width: 240px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li:nth-child(1) {
+    background: #728cf7;
+}
+
+nav li:nth-child(2) {
+    background: #e17094;
+}
+
+nav li:nth-child(3) {
+    background: #68aaf3;
+}
+
+nav li:nth-child(4) {
+    background: #ff9b70;
+}
+
+nav a {
+    display: flex;
+}
